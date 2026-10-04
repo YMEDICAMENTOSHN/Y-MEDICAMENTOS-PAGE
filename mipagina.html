@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Esta etiqueta es crucial para que se vea bien en celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Mi Empresa</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 350px;
+        }
+        /* Estilo para el logo */
+        .logo-container img {
+            max-width: 150px; /* Ajusta este valor según el tamaño de tu logo */
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #1a73e8; /* Color principal de la empresa */
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #5f6368;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #4a4a4a;
+        }
+        .datos-empresa {
+            text-align: left;
+            margin-top: 30px;
+            border-top: 2px solid #e8eaed;
+            padding-top: 20px;
+        }
+        .datos-empresa p {
+            margin: 5px 0;
+        }
+        .datos-empresa strong {
+            color: #333;
+        }
+        .boton {
+            background-color: #1a73e8;
+            color: white;
+            padding: 18px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            display: inline-block;
+            margin-top: 30px;
+            font-size: 1.1em;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .boton:hover {
+            background-color: #1669c1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- LOGO: Pega aquí la URL de tu logo -->
+        <div class="logo-container">
+            <img src="URL_DE_TU_LOGO_AQUI" alt="Logo de la empresa">
+        </div>
+        
+        <!-- INFORMACION EMPRESARIAL -->
+        <h1>Nombre de tu Empresa</h1>
+        <h2>Tu eslogan o especialidad</h2>
+        <p>Breve descripción de lo que hace tu empresa, tus valores o tus productos principales. Este espacio es para contar quiénes son.</p>
+        
+        <!-- DATOS DE CONTACTO -->
+        <div class="datos-empresa">
+            <p><strong>Teléfono:</strong> <a href="tel:+1234567890" style="color: #1a73e8; text-decoration: none;">+1 (234) 567-890</a></p>
+            <p><strong>Correo:</strong> <a href="mailto:contacto@empresa.com" style="color: #1a73e8; text-decoration: none;">contacto@empresa.com</a></p>
+            <p><strong>Dirección:</strong> Calle Falsa 123, Ciudad, País</p>
+        </div>
+        
+        <!-- BOTON DE ACCION -->
+        <a href="https://www.tuweb.com" class="boton">Visitar Sitio Web</a>
+    </div>
+</body>
+</html>
